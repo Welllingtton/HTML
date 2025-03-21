@@ -1,0 +1,23 @@
+Unsplash (https://unsplash.com/pt-br) - site para imagens grátis de boa qualidade;
+
+Peexels (https://www.pexels.com/pt-br/) - site para imagens grátis de boa qualidade;
+
+IconArchive (https://www.iconarchive.com/) - site para favicons;
+
+favicon.io (https://favicon.io/) - site para transformar uma .png em .ico;
+
+Adobe Color (https://color.adobe.com/pt/create/color-wheel) - site para definir paletas de cores.
+
+Paletton (https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) - site para definir paletas de cores.
+
+CSS Web Safe Fonts (https://www.w3schools.com/cssref/css_websafe_fonts.php) - Site para pesquisar fontes 
+
+Google Icon (https://fonts.google.com/icons) - Site para pegar vários ícones como a lupa de pesquisa, 3 tracinhos d
+do menu, X de close, etc.
+
+WhatFontIs.com (https://www.whatfontis.com/) - Site para encontrar fontes que estão em alguma imagem.
+
+MockFlow (https://app.mockflow.com/)
+
+
+

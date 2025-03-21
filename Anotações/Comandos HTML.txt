@@ -1,0 +1,80 @@
+HIERARQUIA DE TEXTO
+hn - 'n' é um número podendo variar do 1 ao 6, quanto menor o valor de n, maior será o tamanho da letra
+hr - é uma linha horizontal que corta a tela horizontalmente.
+p - é um parágrafo
+br - é uma quebra de linha
+<img src="caminho da imagem no seu computador ou o url da web" alt="texto alternativo para caso a imagem não carregue no site">
+strong - deixa o texto em negrito
+em - deixa o texto em itálico
+code - uma forma de mudar a fonte e escrever na tela exatamente o que foi passado dentro do comando do texto para uma fonte mono espaçada, porém não respeita a identação e espaços.
+pre - tem a mesma função do 'code' com o diferencial que respeita todos os espaços e identação que foi passado no comando.
+ol type="forma que será ordenada a lista, podendo ser com: 1, A, a, I, i" start=""- Lista ordenada, para colocar em ordem vários itens
+li - Tag onde cada item será colocado podendo ser usada com as tags 'ol' e 'ul'.
+ul type="disc-disco preto, circle - bolinha vazada, square - quadrado" - Listas não ordenadas, onde a ordem dos fatores não tem importância. 
+dl - Lista de definição usado para quando for exibir um título e sua descrição.
+	dt - tag para o termo
+	dd - tag para a descrição do termo
+abbr - o comando fica sublinhado e ao passar o mouse em cima, aparece a palavra por extenso ou o significado.
+
+&copy - símbolo do copyright.
+
+a href="link_do_site" target="_blank" rel="external" - tag usada para entrar em links externos e internos
+	target="_blank" - vai abrir o site externo em uma aba nova para não sobrepor o seu site.
+	target="_self" - vai forçar a abrir o ste externo na própria aba onde está sendo navegado. Normalmente já é aberto na própria aba.
+	rel="external" - diz que o site a ser aberto é um site externo
+	rel="next" - indica qual é o próximo site imediato a ser aberto
+	rel="prev" - indica qual é o site anterior a ser aberto caso o usuário queira voltar na navegação.
+	../ - caminho para voltar um diretório
+
+a href="link_do_site" download="nome_do_arquivo.pdf" type="application/pdf"
+	download="nome_do_arquivo.pdf" - tag para baixar aquivo pdf
+	type="application/pdf" - tag para baixar aquivo pdf
+
+picture - tag para colocar várias imagens de tamanhos variáveis para o dinamismo do site.
+	source media"(max-width: largura máxima da imagem)" srcset="imagem a ser carregada caso a tela for menor que o width definido" type="image/png"
+	img src="caminho_da_imagem.png" alt="Texto alternativo"
+
+áudio preload="metadata"(carrega apenas algumas informações do áudio como duração e outros dados
+	      "auto"(só termina de carregar o site depois que carregar o áudio inteiro o que pode ser perigoso para áudios grandes)
+	      "none"(não carrega nada do áudio)
+controls - mostra os controle do áudiono site
+loop - vai recomeçar o áudio assim que terminar
+Ex.:
+<audio preload="metadata" autoplay controls loop>
+	<source src="caminho_do_áudio.mp3" type="audio/mpeg">
+</audio>
+
+<main>
+	Tag aonde vai o conteúdo principal do site
+</main>
+
+<span>
+	Deixa o texto saltado no meio do conteúdo
+</span>
+
+<div>
+	É um espaço definido que ocupa o comprimento lateral completo da tela, podendo colocar qualquer coisa nesse espaço.
+</div>
+
+
+
+
+
+
+
+IDENTIFICADORES
+id="algo genérico" - Vai dá uma identidade para um determinado elemento, diferenciando caso haja o mesmo elemento várias vezes. Os identificadores são únicos e não pode haver mais de um elemento com o mesmo id.
+
+class="algo genérico" - Funciona da mesma forma que o id. Vai dá uma identidade para determinados elementos. Diferente do id, pode haver mais de um elemento com a mesma class.
+
+
+
+
+
+ESTRUTURA DO CONTEÚDO DO SITE
+header - Cabeçalho, parte inicial, parte de cima do site.
+nav - div para colocar os links de navegação do site.
+main - div para se colocar o conteúdo principal.
+section - uma sessão do conteúdo
+article - uma div para artigos
+aside - div para um conteúdo periférico, relativo ao artigo

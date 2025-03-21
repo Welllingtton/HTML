@@ -1,0 +1,168 @@
+* {} - configuração global das CSS;
+background-color - muda a cor do fundo.
+
+background-image: linear-gradiente(direção propriamente dita ou grau de inclinação, quantas cores quiser); - para fazer um degradê no fundo.
+
+background-attachment - definir como o fundo de um elemento se comporta em relação à rolagem da página.
+		     : scroll; - O fundo rola junto com a página.
+		     : fixed; - O fundo permanece fixo enquanto o conteúdo rola.
+		     : local; - O fundo rola junto com o conteúdo do elemento ao qual está aplicada.
+		     : inherit; - Vai herdar características do pai. Se um elemento pai tem background-				       attachment: fixed;, e um elemento filho tem background-attachment: inherit;, o filho 			       também terá fixed, mesmo que normalmente ele usasse scroll (o padrão).
+
+font-family - muda a fonte da letra.
+
+font-size - muda o tamanho da letra.
+
+color - muda a cor da letra.
+
+text-align: - mexe no alinhamento do texto.
+
+text-decoration - mexe na decoração do  texto, podendo tirar uma linha que esteja sublinhando, por exemplo. 
+
+text-indent: px; - Deixa um texto com um parágrafo como em uma redação com o distanciamento determinado com a quantidade de pixels.
+
+height - Define a altura do padding, div, etc.
+
+line-height - Altura da linha. Espaço entre uma linha e outra de uma parágrafo.
+
+width - Largura do padding, div, etc.
+max-width - tamanho máximo do site sem que quebre e crie uma barra de rolagem lateral;
+min-width - tamanho mínimo do site para resposividade.
+
+weight - Peso, seja da fonte, etc.
+
+border - linha imaginária eu envolve o conteúdo.
+
+border-radius: - deixa os cantos do background do conteúdo arredondado.
+
+border-width: - largura ou espessura da borda.
+
+border-style: - tipo da borda
+	     solid; - borda normal, inteira completa.
+	     dashed; - borda tracejada.
+	     dotted; - borda pontilhada.
+	     double; - borda com linhas duplas.
+	     groove; - borda tridimensional.
+
+border-color: - cor da borda.
+
+outline - linha imaginária que fica colado na borda(border) pelo lado de fora do conteúdo. É definido da mesma forma do border. (outline-width, style, color).
+
+padding - espaço interno da borda pra dentro entre o conteúdo e a borda(border). É definido na ordem horária (padding top, right, bottom, left).
+
+margin: - espaço externo da borda pra fora. É definido na ordem horária (padding top, right, bottom, left).
+       auto; - Deixa o conteúdo centralizado no meio da página, independente do tamanho do navegador.
+
+box-shadow - é a sombra em uma caixa, div. 
+box-shadow: quanto ela andará para o lado, quanto ela andará para baixo, quanto de espalhamento, cor;
+Ex.: box-shadow: 10px, 10px, 10px, preto;
+
+div > p - O sinal de '>' diz que o elemento 'p' é filho do elemento 'div'. Este comando é um exemplo de como mexer em apenas o elemento 'p' que está dentro de 'div'. Pode ser feito com qualquer outro tipo de elemento que estiver essa hierarquia. Exemplo de cógico com essa configuração:
+	div > p {
+	    display: none;
+	} /Este comando vai esconder oq estiver escrito dentro do elemento 'p' que está dentro do elemento 	  	  'div'./
+	div:hover > p {
+	    display: block;
+	} /Este comando vai revelar o que está escondido dentro de 'p' quando o mouse passar em cima da 'div'./
+
+display: ;
+	inline; - Deixa as divs declaradas em um inline-level.
+	block; - Transforma um elemento em um box-level.
+	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar 			seu tamanho, altura e largura.
+
+img - para declarar uma imagem. Às vezes colocada dentro da tag Picture para colocar imagens de tamanhos diferentes. 
+CSS PARA IMG
+	display: block; - por padrão, a imagem não é um bloco.
+	width: 100%; - deixa a imagem responsiva, mudando de tamanho de quando o site for mudando de tamanho
+
+:root - área destinada para declaração de variáveis, podendo declarar quantas variáveis quiser.
+Ex.:
+	:root {
+	    --variavel: atributo;
+	}
+
+transition-duration: tempo; - tempo de ativação do hover.
+
+PARA DECLARAR UMA FONT EXTERNA BAIXADA
+@font-face {
+	font-family: ;
+	src: url(nome_do_arquivo.extenção) format(tipo da extenção);
+}
+
+		TIPOS DE format():
+			opentype (otf);
+			truetype (ttf);
+			embedded-opentype;
+			truetype-aat (Apple Advanced Typografy);
+			svg;
+
+
+
+
+
+
+FORMAS REDUZIDAS - Shorthands
+FONTE
+font: estilo peso tamanho família;
+Ex.: font: italic bolder 3em Arial;
+
+BORDA
+border: width style color;
+Ex.: border: 10px solid black;
+
+PADDING
+padding: top right bottom left;
+Caso os valores forem iguais para todos os parâmetros, basta passar apenas um vez essa valor.
+Caso for passado apenas dois valores, subentendesse que o primeiro valor são para o top e bottom e o segundo para o right e left.
+Ex.: padding: 10px;
+     padding: 10px 20px;
+
+MARGENS
+margin: top right bottom left;
+Caso for passado o valor 'auto' para algum dos parâmetros, ele irá centralizar apenas aquele parâmetro.
+Ex.: margin: 20px auto 40px auto;
+
+OUTLINE
+outline: width style color;
+Ex.: outline: 10px solid black;
+
+
+
+
+
+
+
+IDENTIFICADORES
+id - Em CSS é identificado com #. Vai dá uma identidade para uma determinada tag, diferenciando caso haja a mesma tag várias vezes.
+
+class="algo genérico" - Em CSS é identificado com . (ponto). Funciona da mesma forma que o id. Vai dá uma identidade para determinados elementos. Diferente do id, pode haver mais de um elemento com a mesma class.
+
+Pseudo-classes são identificadas em CSS com : . Tem que está sempre relacionada a um elemento ou a uma classe. Geralmente está relacionado ao está do elemento. São elas:
+	:hover - quando o mouse passar por cima do elemento ou por cima da div, ele mudará de cor ou fará alguma ação.
+	:visited - quando entrar - mos no site que foi linkado, o elemento estará com uma outra forma, como por exemplo de outra cor, indicando que já foi visitado.
+	:active - dirá o que acontecerá quando o link for clicado, podendo mudar de cor poe exemplo quando essa ação for tomada
+
+Pseudo-elementos são identificadas em CSS com :: e funcionam como as pseudo-classes, e estão relacionadas ao conteúdo do elemento, podendo mexer na estrutura.
+	::after 
+	    contente: 'conteudo'; - Irá mostrar algo depois do elemento em que está relacionada.
+
+	::before
+	    contente: 'conteúdo'; - Irá mostrar algo antes do elemento em que está relacionada.
+
+
+
+
+
+
+
+TIPOS DE CAIXAS
+I) Box-level: tipo de caixa que quando é criada ele quebra uma linha, cria a caixa na linha de baixo, ocupa a largura total da tela e só continua o conteúdo na linha de baixo.
+Ex.: <div>, <h1>-<h6>, <p>, etc.
+
+II) Inline-level: tipo de caixa que é criada na mesma linha do conteúdo, ocupando apenas o espaço que o elemento requirir, podendo dá continuidade no conteúdo na mesma linha do box.
+Ex.: <span>, <a>, <button>, etc.
+
+
+
+
+

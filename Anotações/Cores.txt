@@ -1,0 +1,23 @@
+CIRCULO CROMÁTICO
+Cores Primárias
+Amarelo, Vermelho e Azul.
+
+Cores Secundárias
+Laranja, Violeta e Verde.
+
+Cores Terciárias - Estão entre as cores primárias e secundárias 
+Amarelo - esverdeado, Amarelo - alaranjado
+Vermelho - alaranjado, Vermelho - Arroxeado
+Azul - Arroxeado, Azul - esverdeado
+
+O Circulo Cromático também é dividida em cores quentes e frias.
+
+FORMAÇÃO DE PALETA DE CORES
+Cores Complementares - são cores que apresentam muito contraste entre si. Geralmente são cores opostas no circulo cromático.
+
+Cores Análogas - Cores que não apresentam muito contrastes. Geralmente estão nos lados esquerdo e direito no circulo cromático.
+
+A junção das cores complementares e análogas pode ser usada para formar uma paleta de cores a ser usada no site.
+
+Cores Análogas Relacionais - Quando, no circulo cromático, se pega duas cores principais pulando a cor seguinte e pegando a próxima do circulo.
+

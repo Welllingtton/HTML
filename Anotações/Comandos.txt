@@ -1,0 +1,10 @@
+HIERARQUIA DE TEXTO
+hn - 'n' é um número podendo variar do 1 ao 6, quanto menor o valor de n, maior será o tamanho da letra
+hr - é uma linha horizontal que corta a tela horizontalmente.
+p - é um parágrafo
+br - é uma quebra de linha
+<img src="caminho da imagem no seu computador ou o url da web" alt="texto alternativo para caso a imagem não carregue no site">
+strong - deixa o texto em negrito
+em - deixa o texto em itálico
+code - uma forma de mudar a fonte e escrever na tela exatamente o que foi passado dentro do comando do texto para uma fonte mono espaçada, porém não respeita a identação e espaços.
+pre - tem a mesma função do 'code' com o diferencial que respeita todos os espaços e identação que foi passado no comando.

@@ -1,0 +1,68 @@
+body {
+    background: rgb(20, 20, 20);
+}
+
+h1 {
+    font: normal 35pt Arial;
+    color: white;
+    text-align: center;
+}
+
+img#html {
+    position: absolute;
+    left: 25%;
+    height: 150px;
+}
+
+img#js {
+    position: absolute;
+    left: 54%;
+    height: 150px;
+    
+}
+
+img#hd {
+    position: relative;
+    left: 25%;
+    height: 150px;
+    top: 160px;
+    background-color: white;
+}
+
+img#python {
+    position: relative;
+    left: 25%;
+    top: 150px;
+    height: 150px;
+    background-color: white;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 52vh; /* Ocupa toda a altura da tela */
+}
+
+iframe {
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 800px;
+    height: 450px; /* Ajuste conforme necessário */
+}
+
+.curso {
+    display: flex;
+    justify-content: center;
+    font: normal 18pt Arial;
+}
+
+a#voltar {
+    color: white;
+    text-decoration: none;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
