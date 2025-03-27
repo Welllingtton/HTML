@@ -2,13 +2,22 @@
 background-color - muda a cor do fundo.
 
 background-image: linear-gradiente(direção propriamente dita ou grau de inclinação, quantas cores quiser separado por vírgulas); - para fazer um degradê no fundo.
-                : url('caminho-da-imagem.extensão'); - para usar uma imagem que está baixada nos arquivos.
+                : url('caminho-da-imagem.extensão ou a url da imagem'); - para usar uma imagem que está baixada nos arquivos ou tirada diretamente da internet.
 
 background-attachment - definir como o fundo de um elemento se comporta em relação à rolagem da página.
 		     : scroll; - O fundo rola junto com a página.
 		     : fixed; - O fundo permanece fixo enquanto o conteúdo rola.
 		     : local; - O fundo rola junto com o conteúdo do elemento ao qual está aplicada.
-		     : inherit; - Vai herdar características do pai. Se um elemento pai tem background-				       attachment: fixed;, e um elemento filho tem background-attachment: inherit;, o filho 			       também terá fixed, mesmo que normalmente ele usasse scroll (o padrão).
+		     : inherit; - Vai herdar características do pai. Se um elemento pai tem background-attachment: fixed;, e um elemento filho tem background-attachment: inherit;, o filho também terá fixed, mesmo que normalmente ele usasse scroll (o padrão).
+
+backgound-size: ; - define o tamanho da imagem que está como fundo do site.
+
+background-repeat - quando o fundo de um site for um imagem, esse comando serve para repetir a imagem.
+		 : repeat; - parâmetro padrão que vai repetir a imagem até completar o tamanho do site.
+		 : no-repeat; - não vai repetir a imagem no fundo do site. Irá aparecer apenas uma vez, independente do tamanho da imagem. Ótimo parâmetro para caso houver uma imagem do tamanho do site com boa qualidade. 
+		 : repeat-x; - vai repetir a imagem no eixo x.
+		 : repeat-y; - vai repetir a imagem no eixo y.
+
 
 font-family - muda a fonte da letra.
 
