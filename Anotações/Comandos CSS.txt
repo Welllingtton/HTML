@@ -1,7 +1,8 @@
 * {} - configuração global das CSS;
 background-color - muda a cor do fundo.
 
-background-image: linear-gradiente(direção propriamente dita ou grau de inclinação, quantas cores quiser); - para fazer um degradê no fundo.
+background-image: linear-gradiente(direção propriamente dita ou grau de inclinação, quantas cores quiser separado por vírgulas); - para fazer um degradê no fundo.
+                : url('caminho-da-imagem.extensão'); - para usar uma imagem que está baixada nos arquivos.
 
 background-attachment - definir como o fundo de um elemento se comporta em relação à rolagem da página.
 		     : scroll; - O fundo rola junto com a página.
