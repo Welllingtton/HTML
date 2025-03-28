@@ -1,3 +1,8 @@
+UNIDADES DE MEDIDAS
+px - pixels
+vh - altura da viewport(altura do navegador)
+
+
 * {} - configuração global das CSS;
 background-color - muda a cor do fundo.
 
@@ -11,6 +16,8 @@ background-attachment - definir como o fundo de um elemento se comporta em rela�
 		     : inherit; - Vai herdar características do pai. Se um elemento pai tem background-attachment: fixed;, e um elemento filho tem background-attachment: inherit;, o filho também terá fixed, mesmo que normalmente ele usasse scroll (o padrão).
 
 backgound-size: ; - define o tamanho da imagem que está como fundo do site.
+			  :contain ; - garante que a imagem colocada no fundo do site seja completamente mostrada, independente se para isso for preciso criar barras ao redor da foto.
+			  :cover ; - vai cobrir o fundo por completo, dependendo do tamanho da tela a foto será cortada, mas não haverá tarjas ao redor da imagem caso o tamanho da tela seja alterada.
 
 background-repeat - quando o fundo de um site for um imagem, esse comando serve para repetir a imagem.
 		 : repeat; - parâmetro padrão que vai repetir a imagem até completar o tamanho do site.
@@ -18,6 +25,8 @@ background-repeat - quando o fundo de um site for um imagem, esse comando serve 
 		 : repeat-x; - vai repetir a imagem no eixo x.
 		 : repeat-y; - vai repetir a imagem no eixo y.
 
+backgound-position: coluna linha; - é possível alterar o posicionamento do fundo do site.
+Ex.: background-position: left center;
 
 font-family - muda a fonte da letra.
 
@@ -136,8 +145,8 @@ OUTLINE
 outline: width style color;
 Ex.: outline: 10px solid black;
 
-
-
+BACKGROUND
+background: color image position repeat attachment;
 
 
 
