@@ -70,7 +70,7 @@ outline - linha imaginária que fica colado na borda(border) pelo lado de fora d
 padding - espaço interno da borda pra dentro entre o conteúdo e a borda(border). É definido na ordem horária (padding top, right, bottom, left).
 
 margin: - espaço externo da borda pra fora. É definido na ordem horária (padding top, right, bottom, left).
-       auto; - Deixa o conteúdo centralizado no meio da página, independente do tamanho do navegador.
+       auto; - Deixa o conteúdo centralizado no meio da página, independente do tamanho do navegador. Serve apenas para alinhamento horizontal.
 
 box-shadow - é a sombra em uma caixa, div. 
 box-shadow: quanto ela andará para o lado, quanto ela andará para baixo, quanto de espalhamento, cor;
@@ -101,6 +101,16 @@ Ex.:
 	}
 
 transition-duration: tempo; - tempo de ativação do hover.
+
+
+position: ;
+		: relative; - todo bloco por sua natureza já tem 'position: relative;'
+		: absolute; 
+
+
+
+
+
 
 PARA DECLARAR UMA FONT EXTERNA BAIXADA
 @font-face {
