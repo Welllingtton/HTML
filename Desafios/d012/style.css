@@ -13,6 +13,10 @@
     margin: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     color: white;
@@ -23,12 +27,13 @@ header {
 
 header h1 {
     font: normal normal 6em var(--font2);
-    padding: 10px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
     font: normal normal 1em var(--font1);
-    padding: 5px;
+    padding-bottom: 50px;
 }
 
 header a {
@@ -38,5 +43,48 @@ header a {
 }
 
 header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font: normal normal 32px var(--font3);
+}
+
+main p {
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+
+}
+
+#foto1 {
+    background-image: url('imagens/background001.jpg');
+    padding: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#foto1 p {
+    background-color: rgba(56, 56, 56, 0.39);
+    width: 400px;
+}
+
+footer {
+    font-family: var(--font1);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer p a:hover {
     text-decoration: underline;
 }

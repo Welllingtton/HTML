@@ -1,7 +1,7 @@
 UNIDADES DE MEDIDAS
 px - pixels
 vh - altura da viewport(altura do navegador)
-
+vw - largura da viewport (largura do navogador)
 
 * {} - configuração global das CSS;
 background-color - muda a cor do fundo.
@@ -39,6 +39,10 @@ text-align: - mexe no alinhamento do texto.
 text-decoration - mexe na decoração do  texto, podendo tirar uma linha que esteja sublinhando, por exemplo. 
 
 text-indent: px; - Deixa um texto com um parágrafo como em uma redação com o distanciamento determinado com a quantidade de pixels.
+
+text-transform: uppercase; - deixa todas as letras em maiusculo.
+
+font-variant: small-caps; - deixa as letras no formato das maiúsculas e com a primeira letra da palavra maior.
 
 height - Define a altura do padding, div, etc.
 
