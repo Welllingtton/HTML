@@ -77,8 +77,8 @@ margin: - espaço externo da borda pra fora. É definido na ordem horária (padd
        auto; - Deixa o conteúdo centralizado no meio da página, independente do tamanho do navegador. Serve apenas para alinhamento horizontal.
 
 box-shadow - é a sombra em uma caixa, div. 
-box-shadow: quanto ela andará para o lado, quanto ela andará para baixo, quanto de espalhamento, cor;
-Ex.: box-shadow: 10px, 10px, 10px, preto;
+box-shadow: quanto ela andará para o lado, quanto ela andará para baixo, quanto de espalhamento, cor; Às vezes antes dos parâmetros, vem o parâmetro "inset" para fazer uma sombra dentro da caixa e não fora.
+Ex.: box-shadow: inset 10px, 10px, 10px, preto;
 
 div > p - O sinal de '>' diz que o elemento 'p' é filho do elemento 'div'. Este comando é um exemplo de como mexer em apenas o elemento 'p' que está dentro de 'div'. Pode ser feito com qualquer outro tipo de elemento que estiver essa hierarquia. Exemplo de cógico com essa configuração:
 	div > p {
