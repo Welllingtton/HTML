@@ -62,6 +62,24 @@ Ex.:
 
 
 
+
+HIERARQUIA DE TABELAS (simples)
+TABLE = tabela 
+	TABLE ROW = linha de tabela
+		TABLE HEADER = cabeçalho de tabela
+		TABLE DATA = dado de tabela
+
+<tr> - table row
+	Declaração de uma linha de uma tabela.
+</tr>
+
+<td>
+	Declaração de dados em cada espaço da tabela.
+</td>
+
+
+
+
 IDENTIFICADORES
 id="algo genérico" - Vai dá uma identidade para um determinado elemento, diferenciando caso haja o mesmo elemento várias vezes. Os identificadores são únicos e não pode haver mais de um elemento com o mesmo id.
 

@@ -69,6 +69,10 @@ border-style: - tipo da borda
 
 border-color: - cor da borda.
 
+border-collapse: ; 
+			   : collapse; - deixa apenas uma borda entre um elemento e outro em uma tabela.
+			   : separate; - cria uma borda em cada elemento da tabela, ficando uma tabela com bordas duplicadas nos elementos internos da tabela.
+
 outline - linha imaginária que fica colado na borda(border) pelo lado de fora do conteúdo. É definido da mesma forma do border. (outline-width, style, color).
 
 padding - espaço interno da borda pra dentro entre o conteúdo e a borda(border). É definido na ordem horária (padding top, right, bottom, left).
