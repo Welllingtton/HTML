@@ -64,12 +64,16 @@ Ex.:
 
 
 HIERARQUIA DE TABELAS (simples)
+CAPTION - Legenda da tabela, geralmente localizada em cima do cabeçalho.
 TABLE = tabela 
-	TABLE ROW = linha de tabela
-		TABLE HEADER = cabeçalho de tabela
-		TABLE DATA = dado de tabela
+	TABLE ROW (tr) = linha de tabela
+		TABLE HEADER (th) = cabeçalho de tabela
+		TABLE DATA (td)= dado de tabela
+SCOPE - Diz aonde os dados da tabela irão aparecer
+	scope='col' - se os dados aparecerão em colunas.
+	scope='row' - se os dados aparecerão em linhas.
 
-<tr> - table row
+<tr scope='col' ou 'row'> - table row
 	Declaração de uma linha de uma tabela.
 </tr>
 

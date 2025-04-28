@@ -34,7 +34,12 @@ font-size - muda o tamanho da letra.
 
 color - muda a cor da letra.
 
-text-align: - mexe no alinhamento do texto.
+vertical-align: ; - para mexer no posicionamento vertical.
+			  : top; - alinhar na parte de cima da célula.
+			  : middle; - alinhar no meio da célula.
+			  : bottom; - alinhar na parte de baixo da célula.
+
+text-align: - mexe no alinhamento horizontal.
 
 text-decoration - mexe na decoração do  texto, podendo tirar uma linha que esteja sublinhando, por exemplo. 
 
