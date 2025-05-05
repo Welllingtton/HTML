@@ -184,6 +184,10 @@ Pseudo-classes são identificadas em CSS com : . Tem que está sempre relacionad
 	:hover - quando o mouse passar por cima do elemento ou por cima da div, ele mudará de cor ou fará alguma ação.
 	:visited - quando entrar - mos no site que foi linkado, o elemento estará com uma outra forma, como por exemplo de outra cor, indicando que já foi visitado.
 	:active - dirá o que acontecerá quando o link for clicado, podendo mudar de cor poe exemplo quando essa ação for tomada
+	:nth-child(xn) - em uma tabela, pode-se alterar a cor de determinadas linhas, em que x é a quantidade de cada grupamento. 
+		tr:nth-cgild(2n) - a cada duas linhas da coluna ela faz uma ação determinada.
+		tr:nth-cgild(odd) - a alteração acontecerá nas linhas impares da tabela. odd = impar;
+		tr:nth-cgild(even) - a alteração acontecerá nas linhas pares da tabela. even = par;
 
 Pseudo-elementos são identificadas em CSS com :: e funcionam como as pseudo-classes, e estão relacionadas ao conteúdo do elemento, podendo mexer na estrutura.
 	::after 
