@@ -119,7 +119,7 @@ transition-duration: tempo; - tempo de ativação do hover.
 position: ;
 		: relative; - todo bloco por sua natureza já tem 'position: relative;'
 		: absolute; - será possível configurar duas propriedades, left e top.
-
+		: sticky - 'colavel', 'grudável'.
 
 transform: ; - permite mexer em qualquer caixa aplicando alguma alteração de transformação.
 		 : translate(valor1, valor2); - permite alterar o posicionamento da caixa.(Valor 1 = valores positivos - direita, valores negativos esquerda; Valor 2 = valores positivos - baixo, valores negativos - cima).
