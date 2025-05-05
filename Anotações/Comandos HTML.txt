@@ -80,8 +80,12 @@ SCOPE - Diz aonde os dados da tabela irão aparecer
 <td>
 	Declaração de dados em cada espaço da tabela.
 </td>
-
-
+	MESCLAGEM DE CÉLULA
+		LINHA
+			rowspan="x" - sendo x a quantidade de linhas que será mesclada.
+		COLUNA
+			colspan="x" - sendo x a quantidade de colunas que serão mesclada.
+		Essas configurações são colocadas dentro das tags.
 
 
 IDENTIFICADORES
