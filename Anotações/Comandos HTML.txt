@@ -86,7 +86,12 @@ SCOPE - Diz aonde os dados da tabela irão aparecer
 		COLUNA
 			colspan="x" - sendo x a quantidade de colunas que serão mesclada.
 		Essas configurações são colocadas dentro das tags.
-
+	
+	ESTRUTURA DE TABELAS
+		CAPTION
+		thead
+		tbody
+		tfoot
 
 IDENTIFICADORES
 id="algo genérico" - Vai dá uma identidade para um determinado elemento, diferenciando caso haja o mesmo elemento várias vezes. Os identificadores são únicos e não pode haver mais de um elemento com o mesmo id.
