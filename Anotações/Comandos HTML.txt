@@ -80,6 +80,11 @@ SCOPE - Diz aonde os dados da tabela irão aparecer
 <td>
 	Declaração de dados em cada espaço da tabela.
 </td>
+
+<colgroup> - tag para configuração de colunas.
+	<col class=""> - cada coluna vai ser configurada por uma tag <col> e essa tag não tem fechamento.
+</colgroup>
+
 	MESCLAGEM DE CÉLULA
 		LINHA
 			rowspan="x" - sendo x a quantidade de linhas que será mesclada.
