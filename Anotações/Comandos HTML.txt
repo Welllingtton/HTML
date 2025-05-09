@@ -122,6 +122,10 @@ aside - div para um conteúdo periférico, relativo ao artigo
 </iframe>
 	src="" - parâmetro para colocar o link de algum site.
 	srcdoc="" - parâmetro que é possível colocar comandos html.
+	sandbox="sandbox" referrerpolicy="no-referrer" - é para a segurança do site. Cria-se uma proteção e o site não irá capturar nenhumma informação/dado do usuário.
+		sandbox=""
+				"allow-same-origin allow-form allow-scripts"
+				permitiu da mesma origem, fomrulários e scripts.
 	É um comando display:inline.
 	Tamanho Padrão - 300x150.
 	Mas caso houver uma configuração em folha de estilo em CSS, e uma configuração local na tag, valerá a configuração que estiver em na folha de estilo.
