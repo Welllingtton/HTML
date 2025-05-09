@@ -116,10 +116,13 @@ article - uma div para artigos
 aside - div para um conteúdo periférico, relativo ao artigo
 
 
-<iframe src="link do site" frameborder="0"> - forma de exibir um site secundário dentro do seu próprio código, sem abrir um novo navegador.
+<iframe name="" src="link do site" frameborder="0"> - forma de exibir um site secundário dentro do seu próprio código, sem abrir um novo navegador.
 	Caso algum navegador não for compatível com o iframe, irá exibir o que está aqui.
 	Geralmente, se coloca o link direto para o site que está no iframe.
 </iframe>
-	Tamanho Padrão - 300x150
+	É um comando display:inline.
+	Tamanho Padrão - 300x150.
 	Mas caso houver uma configuração em folha de estilo em CSS, e uma configuração local na tag, valerá a configuração que estiver em na folha de estilo.
 	frameborder - bordar do frame e só aceita dois valores, 0 e 1.
+
+	name="x" será para caso queira abrir o iframe através de um link dentro de outro iframe, coloca o x dentro do link do a.
