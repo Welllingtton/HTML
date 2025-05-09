@@ -120,6 +120,8 @@ aside - div para um conteúdo periférico, relativo ao artigo
 	Caso algum navegador não for compatível com o iframe, irá exibir o que está aqui.
 	Geralmente, se coloca o link direto para o site que está no iframe.
 </iframe>
+	src="" - parâmetro para colocar o link de algum site.
+	srcdoc="" - parâmetro que é possível colocar comandos html.
 	É um comando display:inline.
 	Tamanho Padrão - 300x150.
 	Mas caso houver uma configuração em folha de estilo em CSS, e uma configuração local na tag, valerá a configuração que estiver em na folha de estilo.
