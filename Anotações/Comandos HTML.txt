@@ -59,10 +59,6 @@ Ex.:
 
 
 
-
-
-
-
 HIERARQUIA DE TABELAS (simples)
 CAPTION - Legenda da tabela, geralmente localizada em cima do cabeçalho.
 TABLE = tabela 
@@ -132,3 +128,15 @@ aside - div para um conteúdo periférico, relativo ao artigo
 	frameborder - bordar do frame e só aceita dois valores, 0 e 1.
 
 	name="x" será para caso queira abrir o iframe através de um link dentro de outro iframe, coloca o x dentro do link do a.
+
+FORMILÁRIOS
+<form action="arquivo.ext" autocomplete="off"> - Tag em que todo formulário é criado dentro.
+	<p> <label for="inome">Nome: </label> - 'label' vai relacionar o nome do campo com o espaço a ser usado pra preencher com o dado do usuáio. Lembrando que o 'for' vai com o mesmo nome que tá no id do input
+		<input type="text" name="nome" id="inome">
+	</p>
+</form>
+	action="arquivo.php" - comando que envia os dados preenchidos para um arquivo em php.
+	autocomplete="off" - comando que tira as sugestões dos campos.
+	Existem vários inputs para criar campos nos formulários.
+		text - texto 
+		button - botões 
