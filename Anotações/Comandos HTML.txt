@@ -132,14 +132,30 @@ aside - div para um conteúdo periférico, relativo ao artigo
 FORMILÁRIOS
 <form action="arquivo.ext" method="POST" autocomplete="off"> - Tag em que todo formulário é criado dentro.
 	<p> <label for="inome">Nome: </label> - 'label' vai relacionar o nome do campo com o espaço a ser usado pra preencher com o dado do usuáio. Lembrando que o 'for' vai com o mesmo nome que tá no id do input
-		<input type="text" name="nome" id="inome">
+		<input type="text" name="nome" id="inome" required>
 	</p>
 </form>
 	action="arquivo.php" - comando que envia os dados preenchidos para um arquivo em php.
-	autocomplete="off" - comando que tira as sugestões dos campos.
+	autocomplete="" - configuração que permite alterar as sugestões de preenchimento de dados. Dentro da tag 'form' aceita apenas duas opções.
+				 "off" - desliga as sugestões.
+				 "on" - liga as sugestões.
+		Caso for colocado dentro de uma 'input', aceita muitas outras opções.
+				 "username" - nome do usuário.
+				 "current-password" - para preencher com a senha atual.
+				 "new-password" - para preencher com uma senha nova.
+
 	method="" - 
 		   "get" - quando os dados não forem sensíveis, pois será possível visualizar os dados que foram adicionados pelo usuário na URL e será possível compartilhar entre outros usuários. É limitado a 3000 bytes ou 3000 letras.
 		   "post" - os dados não aparecerá na URL mas ainda assim ainda é possível visualizar os dados nos metadados do site.
+	required - vai tornar obrigatório o preenchimento do formulário, impossibilitando o envio de dados vazios.
+	minlength="" - determina o mínimo de caracteres.
+	maxlength="" - determina o máximo de caracteres.
+	size="" - diz quantos caracteres vai mostrar ao mesmo tempo dentro da caixa.
+	placeholder="" - É uma dica ao usuário do que preencher que fica dentro da caixa.
+
 	Existem vários inputs para criar campos nos formulários.
 		text - texto 
 		button - botões 
+		password - senhas
+		submit - também um botão para enviar dados
+		reset - para resetar informações
