@@ -165,3 +165,7 @@ FORMILÁRIOS
 		month - caixa para determinar mês e ano.
 		date - caixa para determinar data especifica com dia, mês e ano.
 		time - determinar a hora.
+
+	<fieldset> - Tag para fazer uma agrupamento de dados. Fica separado com uma fina linha como se fosse com CSS.
+		<legend>Tag que dá identidade ao agrupamento de dados.</legend>
+	</fieldset>

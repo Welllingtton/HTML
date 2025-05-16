@@ -17,7 +17,7 @@ do menu, X de close, etc.
 
 WhatFontIs.com (https://www.whatfontis.com/) - Site para encontrar fontes que estão em alguma imagem.
 
-MockFlow (https://app.mockflow.com/)
+MockFlow (https://app.mockflow.com/) - Site para desenhar um layout prévio de site.
 
 
 
