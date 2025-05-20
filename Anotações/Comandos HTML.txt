@@ -167,6 +167,9 @@ FORMILÁRIOS
 		time - determinar a hora.
 		checkbox - quadradinhos para marcar checks.
 		radio - também é um botão para marcar checks, porém apenas uma das opções pode ser marcada e não é permitido deixar o campo em branco sem marcação. Para deixar que apenas uma das opção fique marcada, basta colocar todas elas com o mesmo 'name'.
+		color - para abrir um seletor de cores.
+		range - é uma barra para determinar, por exemplo, nível de satisfação de algo. A princípio ela é de 0 a 100 sendo possível alterar esse valor.
+		file - permite o usuário escolher uma imagem do computador. Para usar essa funcionalidade, tem que se usar o metodo POST. 
 
 	<fieldset> - Tag para fazer uma agrupamento de dados. Fica separado com uma fina linha como se fosse com CSS.
 		<legend>Tag que dá identidade ao agrupamento de dados.</legend>
