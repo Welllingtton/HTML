@@ -174,3 +174,20 @@ FORMILÁRIOS
 	<fieldset> - Tag para fazer uma agrupamento de dados. Fica separado com uma fina linha como se fosse com CSS.
 		<legend>Tag que dá identidade ao agrupamento de dados.</legend>
 	</fieldset>
+
+<select> - tag para clicar e abrir uma aba de rolamento com várias opções de marcação como por exemplo, pra escolher uma cidade.
+	<optgroup label="nome do subgrupo"> - vai separar as opções por grupos
+		<option value=""></option>
+		<option value=""></option>
+	</optgroup>
+</select> 
+
+<datelist id=""> - tag para, por exemplo escolher uma profissão, com a possibilidade de escolher numa aba de opções que ira abrir ou simplesmente digitar. Importante lembrar que o "id" dessa "datelist" será colocada dentro de uma tag "list" no input:text.
+	<option></option>
+	<option></option>
+	<option></option>
+</datelist>
+
+<textarea name="" id="" cols="" rows=""> - é uma caixa pra mensagem de texto.
+	cols e rows são quantas linhas e colunas a caixa de texto irá aparecer na tela, porém não é limitado.
+</textarea>
