@@ -213,8 +213,6 @@ Pseudo-elementos são identificadas em CSS com :: e funcionam como as pseudo-cla
 
 
 
-
-
 TIPOS DE CAIXAS
 I) Box-level: tipo de caixa que quando é criada ele quebra uma linha, cria a caixa na linha de baixo, ocupa a largura total da tela e só continua o conteúdo na linha de baixo.
 Ex.: <div>, <h1>-<h6>, <p>, etc.
@@ -226,3 +224,21 @@ Ex.: <span>, <a>, <button>, etc.
 
 
 
+MEDIA QUERY	- (media type + media feature)
+	Conseguesse fazer estilos diferentes para suportes diferentes. Essas configurações são colocadas quando é chamada o link para o CSS no head. 
+
+	MEDIA TYPE - Tipo de Mídia
+		media="screen" - Para própria tela, o que vai ser mostrado na tela.
+		media="print" - Formato para imrpessão, como o site será em caso de impressão
+		media="all" - Para todos os tipos de mídias, seja para telas ou impressão.
+
+	MEDIA FEATURE - Características de Mídia
+		Geralmente colocasse junto com a media type e entre parentese
+		Ex.:
+		media="screen and (orientation: portrait)"
+
+	Para em configurações de estilos internamente ou em um único arquivo, colocasse o estilos CSS dentro de uma regra CSS "@media".
+		Ex.:
+		@media screen and (orientation: portrait) {
+			'configurações de estilo'
+		}

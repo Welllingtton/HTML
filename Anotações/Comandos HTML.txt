@@ -193,15 +193,3 @@ FORMILÁRIOS
 </textarea>
 
 
-MEDIA QUERY	- (media type + media feature)
-	Conseguesse fazer estilos diferentes para suportes diferentes.
-
-	MEDIA TYPE - Tipo de Mídia
-		media="screen" - Para própria tela, o que vai ser mostrado na tela.
-		media="print" - Formato para imrpessão, como o site será em caso de impressão
-		media="all" - Para todos os tipos de mídias, seja para telas ou impressão.
-
-	MEDIA FEATURE - Características de Mídia
-		Geralmente colocasse junto com a media type e entre parentese
-		Ex.:
-		media="screen and (orientation: portrait)"
