@@ -191,3 +191,9 @@ FORMILÁRIOS
 <textarea name="" id="" cols="" rows=""> - é uma caixa pra mensagem de texto.
 	cols e rows são quantas linhas e colunas a caixa de texto irá aparecer na tela, porém não é limitado.
 </textarea>
+
+
+MEDIA QUERY
+	Conseguesse fazer estilos diferentes para suportes diferentes
+		media="screen" - Para própria tela, o que vai ser mostrado na tela.
+		media="print" - Formato para imrpessão, como o site será em caso de impressão
