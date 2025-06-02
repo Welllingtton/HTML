@@ -41,7 +41,13 @@ vertical-align: ; - para mexer no posicionamento vertical.
 
 text-align: - mexe no alinhamento horizontal.
 
-text-decoration - mexe na decoração do  texto, podendo tirar uma linha que esteja sublinhando, por exemplo. 
+text-decoration: ; - mexe na decoração do  texto, podendo tirar uma linha que esteja sublinhando, por exemplo. 
+			   : none; - sem nenhuma decoração no texto.
+			   : underline; - linha em baixo do texto.
+			   : overline; - linha em cima do texto.
+			   : solid; - cria uma linha nos 4 lados do texto, formando uma caixa.
+			   : line-through; - linha cortando o texto.
+			   
 
 text-indent: px; - Deixa um texto com um parágrafo como em uma redação com o distanciamento determinado com a quantidade de pixels.
 
