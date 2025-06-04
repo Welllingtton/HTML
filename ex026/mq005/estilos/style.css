@@ -53,6 +53,7 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     background-color: gray;
+    transition-duration: 0.3s;
 }
 
 main {
