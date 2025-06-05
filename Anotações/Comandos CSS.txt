@@ -208,6 +208,7 @@ Pseudo-classes são identificadas em CSS com : . Tem que está sempre relacionad
 		tr:nth-cgild(2n) - a cada duas linhas da coluna ela faz uma ação determinada.
 		tr:nth-cgild(odd) - a alteração acontecerá nas linhas impares da tabela. odd = impar;
 		tr:nth-cgild(even) - a alteração acontecerá nas linhas pares da tabela. even = par;
+	:focus-within - Comando para fazer um campo mudar a cor quando for clicado, por exemplo.
 
 Pseudo-elementos são identificadas em CSS com :: e funcionam como as pseudo-classes, e estão relacionadas ao conteúdo do elemento, podendo mexer na estrutura.
 	::after 
