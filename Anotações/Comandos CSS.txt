@@ -4,6 +4,7 @@ vh - altura da viewport(altura do navegador)
 vw - largura da viewport (largura do navogador)
 
 * {} - configuração global das CSS;
+
 background-color - muda a cor do fundo.
 
 background-image: linear-gradiente(direção propriamente dita ou grau de inclinação, quantas cores quiser separado por vírgulas); - para fazer um degradê no fundo.
@@ -60,8 +61,8 @@ height - Define a altura do padding, div, etc.
 line-height - Altura da linha. Espaço entre uma linha e outra de uma parágrafo.
 
 width - Largura do padding, div, etc.
-max-width - tamanho máximo do site sem que quebre e crie uma barra de rolagem lateral;
-min-width - tamanho mínimo do site para resposividade.
+	max-width - tamanho máximo do site sem que quebre e crie uma barra de rolagem lateral;
+	min-width - tamanho mínimo do site para resposividade.
 
 weight - Peso, seja da fonte, etc.
 
@@ -120,9 +121,10 @@ Ex.:
 	:root {
 	    --variavel: atributo;
 	}
-
+transition: width 1s, heigth 1s; Na transição das medias queries, demoraria 1s para aumentar ou diminuir. 
 transition-duration: tempo; - tempo de ativação do hover.
-
+transition-timing-function: ;
+			  : ease; - Vai suavizar a animação da transição.
 
 position: ;
 		: relative; - todo bloco por sua natureza já tem 'position: relative;'
@@ -132,11 +134,11 @@ position: ;
 transform: ; - permite mexer em qualquer caixa aplicando alguma alteração de transformação.
 		 : translate(valor1, valor2); - permite alterar o posicionamento da caixa.(Valor 1 = valores positivos - direita, valores negativos esquerda; Valor 2 = valores positivos - baixo, valores negativos - cima).
 
-overflow - conteúdo que transborda e acaba criando rolagem. Será possível criar uma rolagem apenas do conteúdeo desejado, desde que ele esteja dentro de uma div. 
+overflow - conteúdo que transborda e acaba criando rolagem. Será possível criar uma rolagem apenas do conteúdo desejado, desde que ele esteja dentro de uma div. 
 	overflow-x - apenas rolagem horizontal.
 	overflow-y - apenas rolagem vertical.
 			  : auto;
-			  : hidden;
+			  : hidden; - tudo o que estiver fora das bordas definidas, será cortado
 			  : scroll;
 
 
