@@ -1,23 +1,41 @@
-Unsplash (https://unsplash.com/pt-br) - site para imagens grátis de boa qualidade;
+Site para imagens grátis de boa qualidade
+ - Unsplash (https://unsplash.com/pt-br)
 
-Peexels (https://www.pexels.com/pt-br/) - site para imagens grátis de boa qualidade;
+ - Peexels (https://www.pexels.com/pt-br/) - site para imagens grátis de boa qualidade;
 
-IconArchive (https://www.iconarchive.com/) - site para favicons;
 
-favicon.io (https://favicon.io/) - site para transformar uma .png em .ico;
+Site para favicons
+ - IconArchive (https://www.iconarchive.com/) - 
 
-Adobe Color (https://color.adobe.com/pt/create/color-wheel) - site para definir paletas de cores.
 
-Paletton (https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF) - site para definir paletas de cores.
+Site para transformar extenção de imagem de .png para .ico
+ - favicon.io (https://favicon.io/)
 
-CSS Web Safe Fonts (https://www.w3schools.com/cssref/css_websafe_fonts.php) - Site para pesquisar fontes 
 
-Google Icon (https://fonts.google.com/icons) - Site para pegar vários ícones como a lupa de pesquisa, 3 tracinhos d
-do menu, X de close, etc.
+Site para definir paletas de cores
+ - Adobe Color (https://color.adobe.com/pt/create/color-wheel)
 
-WhatFontIs.com (https://www.whatfontis.com/) - Site para encontrar fontes que estão em alguma imagem.
+ - Paletton (https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
 
-MockFlow (https://app.mockflow.com/) - Site para desenhar um layout prévio de site.
+
+Site para pesquisar fontes
+ - CSS Web Safe Fonts (https://www.w3schools.com/cssref/css_websafe_fonts.php)
+
+
+Site para encontrar fontes que estão em alguma imagem
+ - WhatFontIs.com (https://www.whatfontis.com/)
+
+
+Site para pegar vários ícones como a lupa de pesquisa, 3 tracinhos ddo menu, X de close, etc
+ - Google Icon (https://fonts.google.com/icons)
+
+ - Remix Icon (https://remixicon.com/)
+
+
+
+
+Site para desenhar um layout prévio de site
+ - MockFlow (https://app.mockflow.com/)
 
 
 
