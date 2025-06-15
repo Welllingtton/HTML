@@ -2,6 +2,10 @@ UNIDADES DE MEDIDAS
 px - pixels
 vh - altura da viewport(altura do navegador)
 vw - largura da viewport (largura do navogador)
+em - está relacionado ao tamanho base da fonte do elemento <html> ou <body>
+     Geralmente é 1em = 16px, dependendo do elemento pai. Se o elemento pai for 2em (32px) o elemento filho terá 1em = 32px.
+rem - tem a mesma primícia do "em" só que o rem não depende do elemento pai.
+
 
 * {} - configuração global das CSS;
 
