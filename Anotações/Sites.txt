@@ -32,10 +32,9 @@ Site para pegar vários ícones como a lupa de pesquisa, 3 tracinhos ddo menu, X
  - Remix Icon (https://remixicon.com/)
 
 
-
-
 Site para desenhar um layout prévio de site
  - MockFlow (https://app.mockflow.com/)
 
 
-
+Site para hospedar sites gratuitamente
+ - Versel (https://vercel.com/)
