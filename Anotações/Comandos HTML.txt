@@ -175,7 +175,7 @@ FORMILÁRIOS
 		file - permite o usuário escolher uma imagem do computador. Para usar essa funcionalidade, tem que se usar o metodo POST. 
 
 	<fieldset> - Tag para fazer uma agrupamento de dados. Fica separado com uma fina linha como se fosse com CSS.
-		<legend>Tag que dá identidade ao agrupamento de dados.</legend>
+		<legend>Tag que dá identidade ao agrupamento de dados.</legend> (opcional)
 	</fieldset>
 
 <select> - tag para clicar e abrir uma aba de rolamento com várias opções de marcação como por exemplo, pra escolher uma cidade.
