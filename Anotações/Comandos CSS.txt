@@ -114,7 +114,16 @@ display: ;
 	inline; - Deixa as divs declaradas em um inline-level.
 	block; - Transforma um elemento em um box-level.
 	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar seu tamanho, altura e largura.
-	flex; - 
+	flex; - Apenas o elemento Pai recebe essa configuração para os elementos filhos poderem receber outros tipos de configurações.
+
+flex-direction: ; - Orientação de direção dos elementos.
+	row; - elementos deitados, na horizontal da esquerda para a direita. Quando não é determinado esse comando a um elemento, automaticamente ele recebe essa caracteristica "row".
+	row-reverse; -  elementos deitados, na horizontal da direita para a esquerda.
+	column; - elementos em coluna, de cima para baixo.
+	column-reverse; - elementos em coluna, de baixo para cima.
+
+ 
+
 img - para declarar uma imagem. Às vezes colocada dentro da tag Picture para colocar imagens de tamanhos diferentes. 
 CSS PARA IMG
 	display: block; - por padrão, a imagem não é um bloco.
