@@ -116,13 +116,42 @@ display: ;
 	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar seu tamanho, altura e largura.
 	flex; - Apenas o elemento Pai recebe essa configuração para os elementos filhos poderem receber outros tipos de configurações.
 
+flex: ; 
+	auto; - centraliza os elementos filhos e os adapta para o tamanho do elemento pai, esse comando não funciona no elemento pai.
+
+flex-wrap: ; - Comando de encapsulamento de itens;
+	nowrap; - faz com que elementos se adapte-se ao tamanho do elemento pai, diminuindo ao máximo, ficando do tamanho da palavra mais longa. comando base, se não for especificado, o elemento terá essa caracteristica.
+	wrap; - quando o elemento pai for diminuindo e passar do limite dos elementos filhos, haverá uma quebra e um elemento de cada vez vai quebrando na direção do eixo transversal.
+	wrap-reverse; - quando o elemento pai for diminuindo e passar do limite dos elementos filhos, haverá uma quebra e um elemento de cada vez vai quebrando na direção contrária do eixo transversal.
+
 flex-direction: ; - Orientação de direção dos elementos.
 	row; - elementos deitados, na horizontal da esquerda para a direita. Quando não é determinado esse comando a um elemento, automaticamente ele recebe essa caracteristica "row".
 	row-reverse; -  elementos deitados, na horizontal da direita para a esquerda.
 	column; - elementos em coluna, de cima para baixo.
 	column-reverse; - elementos em coluna, de baixo para cima.
 
- 
+main-start - é o início do container, o elemento pai.
+main-start - é o final do container, o elemento pai.
+
+justify-content: ; faz o alinhamento em relaçao ao eixo principal.
+	flex-start; - o primeiro, junto com todos os outros elementos, vai ficar grudado no início do container, no main-start, e os espaços em branco será jogado para o main-end.
+	flex-end; - o ultimo, junto com todos os outros elementos, vai ficar grudado no final do container, no main-end, e os espaços em branco será jogado para o main-start.
+	center; - todos os elementos vão está centralizado no centro do conteiner, do elemento pai e os espaços restantes será dividido igualmente no início e no final do container.
+	space-between; - o primeiro elemento fica no main-start, o ultimo no main-end e o elementos restante serão igualmente distribuidos ao centro do conteiner.
+	space-evenly; - distribui o espaço restante entre todos os elementos fazendo com que os elementos fiquem com espaços iguais entre eles.
+	space-around; - 
+
+align-items: ; - faz o alinhamento em relação ao eixo transversal.
+	stretch; - quando a um distanciamento entre o cross-start e o cross-end, faz com que os elementos se estiquem.
+	flex-start; - gruda os elementos no inicio do eixo transversal.
+	flex-end; - gruda os elementos no final do eixo transversal.
+	center; - todos os elementos vão está centralizado no centro do conteiner, do elemento pai e os espaços restantes será dividido igualmente no início e no final do container.
+
+EIXOS - (eixo principal;eixo transversal)
+row - esquerda para direita; cima para baixo.
+row-reverse - direita para esquerda; cima para baixo.
+column - cima pra baixo; esquerda para direita.
+column-recerse - baixo pra cima; esquerda para direita.
 
 img - para declarar uma imagem. Às vezes colocada dentro da tag Picture para colocar imagens de tamanhos diferentes. 
 CSS PARA IMG
@@ -134,6 +163,7 @@ Ex.:
 	:root {
 	    --variavel: atributo;
 	}
+
 transition: width 1s, heigth 1s; Na transição das medias queries, demoraria 1s para aumentar ou diminuir. 
 transition-duration: tempo; - tempo de ativação do hover.
 transition-timing-function: ;
@@ -205,8 +235,9 @@ Ex.: outline: 10px solid black;
 BACKGROUND
 background: color image position repeat attachment;
 
-
-
+FLEX
+flex-flow: flex-direction + flex-wrap
+Ex.: flex-flow: row nowrap;
 
 IDENTIFICADORES
 id - Em CSS é identificado com #. Vai dá uma identidade para uma determinada tag, diferenciando caso haja a mesma tag várias vezes.
