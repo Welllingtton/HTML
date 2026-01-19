@@ -113,8 +113,8 @@ div > p - O sinal de '>' diz que o elemento 'p' é filho do elemento 'div'. Este
 display: ;
 	inline; - Deixa as divs declaradas em um inline-level.
 	block; - Transforma um elemento em um box-level.
-	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar 			seu tamanho, altura e largura.
-
+	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar seu tamanho, altura e largura.
+	flex; - 
 img - para declarar uma imagem. Às vezes colocada dentro da tag Picture para colocar imagens de tamanhos diferentes. 
 CSS PARA IMG
 	display: block; - por padrão, a imagem não é um bloco.
