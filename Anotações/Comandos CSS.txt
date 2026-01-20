@@ -5,7 +5,7 @@ vw - largura da viewport (largura do navogador)
 em - está relacionado ao tamanho base da fonte do elemento <html> ou <body>
      Geralmente é 1em = 16px, dependendo do elemento pai. Se o elemento pai for 2em (32px) o elemento filho terá 1em = 32px.
 rem - tem a mesma primícia do "em" só que o rem não depende do elemento pai.
-
+inherit = herdado
 
 * {} - configuração global das CSS;
 
@@ -115,6 +115,7 @@ display: ;
 	block; - Transforma um elemento em um box-level.
 	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar seu tamanho, altura e largura.
 	flex; - Apenas o elemento Pai recebe essa configuração para os elementos filhos poderem receber outros tipos de configurações.
+
 PROPRIEDADES PARA FLEX-CONTAIN
 
 flex: ; 
@@ -156,6 +157,21 @@ aling-content: ; - faz o alinhamento dos elementos no eixo transversal quando j�
 	space-between; - o primeiro elemento fica no cross-start, o ultimo no cross-end e o elementos restante serão igualmente distribuidos ao centro do conteiner.
 	space-evenly; - distribui o espaço restante entre todos os elementos fazendo com que os elementos fiquem com espaços iguais entre eles.
 	space-around; 
+
+PROPRIEDADES DOS ITENS ENCAPSULADOS
+
+order: Por padrão, todos os elementos filhos dentro de um conteiner recebem order=0, mas é possível dá outros valores a cada elemento para ordená-los de forma diferente.
+
+align-self: ; - está propriedade pode ser aplicada a cada um dos elementos e trabalha diretamente no cross-axis.
+	auto; - vai herdar a caracteristica de alinamento vertical do elemento pai.
+	flex-star; - alinhamento perto do cross-start.
+	flex-end; - alinhamento perto do cross-end.
+	center; 
+	stretch;
+
+flex-basis: ; - reflete o tamanho do elemento, podendo receber valores ou variáveis.
+	auto; - o tamanho do elemento será determinado pelo tamanho do seu conteúdo.
+
 
 EIXOS - (eixo principal;eixo transversal)
 row - esquerda para direita; cima para baixo.
