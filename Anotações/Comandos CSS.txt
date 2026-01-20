@@ -115,6 +115,7 @@ display: ;
 	block; - Transforma um elemento em um box-level.
 	inline-block; - Ainda é um elemento inline-level, porém com características de bloco podendo editar seu tamanho, altura e largura.
 	flex; - Apenas o elemento Pai recebe essa configuração para os elementos filhos poderem receber outros tipos de configurações.
+PROPRIEDADES PARA FLEX-CONTAIN
 
 flex: ; 
 	auto; - centraliza os elementos filhos e os adapta para o tamanho do elemento pai, esse comando não funciona no elemento pai.
