@@ -140,13 +140,22 @@ justify-content: ; faz o alinhamento em relaçao ao eixo principal.
 	center; - todos os elementos vão está centralizado no centro do conteiner, do elemento pai e os espaços restantes será dividido igualmente no início e no final do container.
 	space-between; - o primeiro elemento fica no main-start, o ultimo no main-end e o elementos restante serão igualmente distribuidos ao centro do conteiner.
 	space-evenly; - distribui o espaço restante entre todos os elementos fazendo com que os elementos fiquem com espaços iguais entre eles.
-	space-around; - 
+	space-around; 
 
 align-items: ; - faz o alinhamento em relação ao eixo transversal.
 	stretch; - quando a um distanciamento entre o cross-start e o cross-end, faz com que os elementos se estiquem.
 	flex-start; - gruda os elementos no inicio do eixo transversal.
 	flex-end; - gruda os elementos no final do eixo transversal.
 	center; - todos os elementos vão está centralizado no centro do conteiner, do elemento pai e os espaços restantes será dividido igualmente no início e no final do container.
+
+aling-content: ; - faz o alinhamento dos elementos no eixo transversal quando já estão empacotados.
+	stretch;
+	flex-start; - cola todos os elementos no cross-start.
+	flex-end; - cola todos os elementos no cross-end.
+	center; - todos os elementos vão está centralizado no centro do conteiner, do elemento pai e os espaços restantes será dividido igualmente no início e no final do container.
+	space-between; - o primeiro elemento fica no cross-start, o ultimo no cross-end e o elementos restante serão igualmente distribuidos ao centro do conteiner.
+	space-evenly; - distribui o espaço restante entre todos os elementos fazendo com que os elementos fiquem com espaços iguais entre eles.
+	space-around; 
 
 EIXOS - (eixo principal;eixo transversal)
 row - esquerda para direita; cima para baixo.
