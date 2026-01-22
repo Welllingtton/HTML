@@ -172,6 +172,19 @@ align-self: ; - está propriedade pode ser aplicada a cada um dos elementos e tr
 flex-basis: ; - reflete o tamanho do elemento, podendo receber valores ou variáveis.
 	auto; - o tamanho do elemento será determinado pelo tamanho do seu conteúdo.
 
+flex-shrink: ; - se um elemento pode encolher ou não.
+	1; - por padrão, esse comando tem parâmetro 1 e permite um elemento encolher, qualquer valor diferente de 0 ou positivo também.
+	0; ou negativo - indica que o elemento não pode encolher.
+	outros valores;
+		Ex.: 2; - vai encolher em proporção às outras células. 2(dobro), 3(triplo), etc.
+
+flex-grow: ; - se um elemento filho pode aumentar ou não.
+	0; - por padrão, esse comando tem parâmetro 0 e não permite que os elementos cresça. 
+	1; - permite que os elementos cresça.
+	outros valores;
+		Ex.: 2; - vai crescer em proporção às outras células. 2(dobro), 3(triplo), etc.
+
+
 
 EIXOS - (eixo principal;eixo transversal)
 row - esquerda para direita; cima para baixo.
