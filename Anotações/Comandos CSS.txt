@@ -184,7 +184,15 @@ flex-grow: ; - se um elemento filho pode aumentar ou não.
 	outros valores;
 		Ex.: 2; - vai crescer em proporção às outras células. 2(dobro), 3(triplo), etc.
 
+flex = flex-grow + flex-shrink + flex-basis
 
+flex: 0 1 auto = flex: initial; - o parâmetro initial faz com que o comando assuma seus valores padronizados
+
+flex: 0 0 auto = flex: none; - torna o elemento inflexível.
+
+flex: 1 1 auto = flex: auto; - torna o elemento o mais flexível possível, podendo aumentar e diminuir o máximo possível.
+
+flex: 3 = flex: 3 1 auto; - se for dado apenas um parâmetro da tag, os demais parâmetros assumem seus valores padronizados.
 
 EIXOS - (eixo principal;eixo transversal)
 row - esquerda para direita; cima para baixo.
@@ -277,6 +285,9 @@ background: color image position repeat attachment;
 FLEX
 flex-flow: flex-direction + flex-wrap
 Ex.: flex-flow: row nowrap;
+
+flex: grow shrink basis;
+Ex.: flex: 0 1 150px;
 
 IDENTIFICADORES
 id - Em CSS é identificado com #. Vai dá uma identidade para uma determinada tag, diferenciando caso haja a mesma tag várias vezes.
