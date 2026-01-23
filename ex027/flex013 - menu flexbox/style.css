@@ -19,14 +19,22 @@ header {
     background-color: rgb(150, 150, 150);
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 nav {
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 nav > a {
@@ -42,7 +50,7 @@ nav > a {
 nav > a:hover {
     background-color: white;
     color: black;
-    transition: background-color .3s;
+    transition: .3s;
 }
 
 main {
